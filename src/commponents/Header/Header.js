@@ -22,7 +22,7 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect className=' d-flex justify-content-between sticky-top shadow' expand="lg" bg="light" variant="">
             <Container>
-                <Navbar.Brand><Link to='/' className='text-decoration-none'><FaBookOpen/> Online School</Link></Navbar.Brand>
+                <Navbar.Brand><Link to='/' className='text-decoration-none'><FaBookOpen /> programming-app</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
@@ -60,7 +60,7 @@ const Header = () => {
                                             <button className='btn btn-danger'>Log In</button>
                                         </Link>
                                         <Link to='/register'>
-                                            <button className='btn btn-danger'>Register </button>
+                                            <button className='btn btn-info'>Register </button>
                                         </Link>
                                     </>
                             }

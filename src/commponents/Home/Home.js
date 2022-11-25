@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div className="container my-4">
+        <div className="container my-4 mt-5">
             <div className="row">
                 <div className="col-sm-6">
-                    <img className='w-100 shadow' src="https://tech-guru-a37d0.web.app/static/media/sidepic.67b6ffad9df9221179ea.png" alt="" />
+                    <img className='w-100 shadow' src="https://www.kindpng.com/picc/m/551-5512894_digital-marketing-img-seo-grow-your-business-hd.png" alt="" />
                 </div>
                 <div className="col-sm-6 d-flex align-items-center">
                     <div className="">
-                        <h2 className='fs-1'>Looking For The Best Online Courses In The Country?</h2>
-                        <h3 className='text-warning my-3'>The Search Is Over. Here We Are.</h3>
+                        <h2 className='fs-2'>Learn Effectively that will take you towards your goal</h2>
+                        <h3 className='text-info my-3'>Complete Web Development Course </h3>
                         <Link to='/courses'><button className='btn btn-danger'>Our Courses</button></Link>
                     </div>
                 </div>
